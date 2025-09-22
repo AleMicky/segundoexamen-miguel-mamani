@@ -10,5 +10,17 @@ Para el desarrollo de estilos se ha seleccionado el framework **Bootstrap**.
 - `ng serve` – levanta el servidor de desarrollo
 - `ng build` – genera el build de producción
 
+## UI Template
+
+Este proyecto incluye un template gratuito obtenido de la página oficial de Bootstrap.
+
+### Fuente
+- Nombre del template: **Album Example**
+- URL: [https://getbootstrap.com/docs/5.3/examples/album/](https://getbootstrap.com/docs/5.3/examples/album/)
+
+### Licencia
+Los ejemplos de Bootstrap se publican bajo la licencia **MIT**.  
+Ver más en [Bootstrap License](https://github.com/twbs/bootstrap/blob/main/LICENSE).
+
 ## Notas
 - Repositorio público creado sin repos anidados.
