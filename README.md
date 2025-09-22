@@ -16,7 +16,7 @@ Este proyecto incluye un template gratuito obtenido de la página oficial de Boo
 
 ### Fuente
 - Nombre del template: **Album Example**
-- URL: [https://getbootstrap.com/docs/5.3/examples/album/](https://getbootstrap.com/docs/5.3/examples/album/)
+- URL: [https://getbootstrap.com/docs/5.3/examples/dashboard/](https://getbootstrap.com/docs/5.3/examples/dashboard/)
 
 ### Licencia
 Los ejemplos de Bootstrap se publican bajo la licencia **MIT**.  

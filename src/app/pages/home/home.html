@@ -1,10 +1,191 @@
-<div class="py-5 text-center">
-    <h1 class="display-4 fw-bold text-primary">👋 ¡Bienvenido a Company name!</h1>
-    <p class="lead">
-        Esta es la página principal de tu aplicación Angular 20 con Bootstrap 5.3.
-    </p>
-    <hr class="my-4">
-    <p>
-        Usa el menú lateral para navegar entre las secciones o explora el dashboard.
-    </p> 
-</div>
+<div class="home container-fluid py-4">
+
+    <!-- Hero / Bienvenida -->
+    <section class="home-hero rounded-3 p-4 p-md-5 mb-4">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-8">
+          <h1 class="display-6 fw-semibold mb-2">👋 Bienvenido</h1>
+          <p class="lead text-body-secondary mb-4">
+            Esta es tu página principal. Desde aquí puedes acceder al dashboard, UI y acciones rápidas.
+          </p>
+        
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="home-hero-card card shadow-sm border-0">
+            <div class="card-body">
+              <h6 class="text-uppercase text-muted mb-1">Estado</h6>
+              <div class="d-flex align-items-center">
+                <span class="badge text-bg-success me-3">OK</span>
+                <small class="text-body-secondary">Sin incidencias reportadas</small>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between text-center">
+                <div>
+                  <div class="kpi-value">24</div>
+                  <small class="text-body-secondary">Tareas</small>
+                </div>
+                <div>
+                  <div class="kpi-value">8</div>
+                  <small class="text-body-secondary">Pendientes</small>
+                </div>
+                <div>
+                  <div class="kpi-value">92%</div>
+                  <small class="text-body-secondary">Avance</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </section>
+  
+    <!-- KPIs -->
+    <section class="mb-4">
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card card-hover shadow-sm h-100">
+            <div class="card-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="text-muted mb-1">Usuarios activos</h6>
+                  <div class="kpi-display">1,284</div>
+                </div>
+                <i class="bi bi-people fs-3 text-primary"></i>
+              </div>
+              <small class="text-success d-inline-flex align-items-center mt-2">
+                <i class="bi bi-arrow-up-right me-1"></i> +4.3% esta semana
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card card-hover shadow-sm h-100">
+            <div class="card-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="text-muted mb-1">Nuevos registros</h6>
+                  <div class="kpi-display">86</div>
+                </div>
+                <i class="bi bi-person-plus fs-3 text-primary"></i>
+              </div>
+              <small class="text-body-secondary d-inline-flex align-items-center mt-2">
+                <i class="bi bi-calendar-event me-1"></i> Últimas 24 h
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card card-hover shadow-sm h-100">
+            <div class="card-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="text-muted mb-1">Tickets abiertos</h6>
+                  <div class="kpi-display">12</div>
+                </div>
+                <i class="bi bi-life-preserver fs-3 text-primary"></i>
+              </div>
+              <small class="text-danger d-inline-flex align-items-center mt-2">
+                <i class="bi bi-exclamation-triangle me-1"></i> 2 urgentes
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card card-hover shadow-sm h-100">
+            <div class="card-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="text-muted mb-1">Tiempo de respuesta</h6>
+                  <div class="kpi-display">1.3 h</div>
+                </div>
+                <i class="bi bi-lightning-charge fs-3 text-primary"></i>
+              </div>
+              <small class="text-body-secondary d-inline-flex align-items-center mt-2">
+                <i class="bi bi-clock me-1"></i> Promedio 7 días
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Acciones rápidas & actividad -->
+    <section class="mb-4">
+      <div class="row g-3">
+        <div class="col-12 col-xl-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-header bg-transparent">
+              <h6 class="mb-0 d-flex align-items-center">
+                <i class="bi bi-lightning-charge me-2"></i> Acciones rápidas
+              </h6>
+            </div>
+            <div class="list-group list-group-flush">
+              <a class="list-group-item list-group-item-action d-flex align-items-center" routerLink="/dashboard">
+                <i class="bi bi-speedometer2 me-2"></i> Ir al Dashboard
+              </a>
+              <a class="list-group-item list-group-item-action d-flex align-items-center" routerLink="/ui">
+                <i class="bi bi-palette2 me-2"></i> Ver UI
+              </a>
+              <a class="list-group-item list-group-item-action d-flex align-items-center" routerLink="/reportes">
+                <i class="bi bi-bar-chart-line me-2"></i> Reportes
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-8">
+          <div class="card shadow-sm h-100">
+            <div class="card-header bg-transparent">
+              <h6 class="mb-0 d-flex align-items-center">
+                <i class="bi bi-activity me-2"></i> Actividad reciente
+              </h6>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th>Fecha</th>
+                    <th>Evento</th>
+                    <th>Estado</th>
+                    <th class="text-end">Acción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>22/09/2025</td>
+                    <td>Deploy de UI</td>
+                    <td><span class="badge text-bg-success">Éxito</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-outline-secondary">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>21/09/2025</td>
+                    <td>Creación de usuario</td>
+                    <td><span class="badge text-bg-primary">Nuevo</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-outline-secondary">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>20/09/2025</td>
+                    <td>Backup nocturno</td>
+                    <td><span class="badge text-bg-warning">En curso</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-outline-secondary">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>          
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </div>
